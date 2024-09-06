@@ -1,4 +1,3 @@
-import random
 def password(first_stone):
     second_stone = []
     for i in range(1,first_stone):

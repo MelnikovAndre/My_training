@@ -3,7 +3,7 @@ def single_root_words(root_word, *other_words):
     root_word = root_word.lower()
     for i in other_words:
         i=i.lower()
-        if  i.count('rich'):
+        if  i.count(root_word):
             same_words.append(i)
         elif root_word.count(i):
             same_words.append(i.capitalize())
